@@ -2,9 +2,15 @@
   "dependencies": {
     "@tensorflow/tfjs": "^4.12.0",
     "expo": "^49.0.16",
+    "react-native": "^0.72.6",
     "react-native-webview": "13.2.2"
   },
   "scripts": {
-    "build": "expo export --public-url ./ --dev"
+    "start": "expo start",
+    "android": "expo android",
+    "ios": "expo ios",
+    "web": "expo web",
+    "eject": "expo eject",
+    "build": "npx expo export:web"
   }
 }
