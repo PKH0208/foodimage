@@ -3,5 +3,8 @@
     "@tensorflow/tfjs": "^4.12.0",
     "expo": "^49.0.16",
     "react-native-webview": "13.2.2"
+  },
+  "scripts": {
+    "build": "your-build-command-here"
   }
 }
