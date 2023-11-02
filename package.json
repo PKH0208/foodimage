@@ -5,6 +5,6 @@
     "react-native-webview": "13.2.2"
   },
   "scripts": {
-    "build": "your-build-command-here"
+    "build": "expo build:web"
   }
 }
