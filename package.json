@@ -3,7 +3,10 @@
     "@tensorflow/tfjs": "^4.12.0",
     "expo": "^49.0.16",
     "react-native": "^0.72.6",
-    "react-native-webview": "13.2.2"
+    "react-native-webview": "13.2.2",
+    "react-native-web": "~0.19.6",
+    "react-dom": "18.2.0",
+    "@expo/webpack-config": "^19.0.0"
   },
   "scripts": {
     "start": "expo start",
@@ -12,10 +15,5 @@
     "web": "expo web",
     "eject": "expo eject",
     "build": "npx expo export:web"
-  },
-  "devDependencies": {
-    "react-native-web": "~0.19.6",
-    "react-dom": "18.2.0",
-    "@expo/webpack-config": "^19.0.0"
   }
 }
